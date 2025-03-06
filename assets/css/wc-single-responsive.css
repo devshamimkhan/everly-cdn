@@ -1,0 +1,46 @@
+@media (min-width: 320px) and (max-width: 576px) { 
+    .wcp-breadcrum ul li{
+        font-size: 13px;
+    }
+    .sm-flex-none{
+        display: block !important;
+    }
+    .social-share-wrapper{
+        margin-top: 10px;
+    }
+    .qty-minus img, .qty-plus img {
+        width: 30px;
+    }
+    .wcp-qty {
+        font-size: 20px;
+        width: 30px;
+        height: 30px;
+    }
+    button.btn.addToCart {
+        margin: 0px 10px;
+        padding: 6px 20px;
+    }
+    button.btn.buyNow {
+        padding: 6px 20px;
+    }
+    .sm-dnone{
+        display: none !important;
+    }
+    .wcp-btns-section {
+        position: fixed;
+        bottom: 0px;
+        background: #fff;
+        text-align: center;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+ }
+@media (min-width: 768px){
+    .md-dnone{
+        display: none !important;
+    }
+ }

@@ -1,0 +1,244 @@
+/* Home page  */
+
+.home-hero-section {
+  margin-top: -40px;
+}
+.hero-slider {
+    padding: 20px 0;
+}
+/* feature-box */
+.featured-sec {
+    margin-bottom: 20px;
+}
+
+
+.top-cat-sec {
+    margin: 20px 0;
+}
+
+.cate-grid:hover {
+    background-color: #fff;
+}
+
+.cate-grid:hover img {
+    opacity: 50%;
+}
+
+.carocate-name {
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.featured-banner-sec {
+     margin: 20px 0;
+}
+
+.featured-banner {
+    overflow: hidden;
+}
+
+.featured-banner img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+	border-radius:5px;
+}
+
+/* Special Products tab  */
+.special-product-sec {
+    margin: 20px 0;
+    padding: 20px 0 0 0;
+    background: #FEF1F5;
+}
+
+ul#special-producTab {
+    display: flex;
+    justify-content: center;
+    border: none;
+	margin:0;
+}
+
+ul#special-producTab .nav-item .nav-link {
+    color: #000;
+    font-size: 14px;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 500;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin: 0 10px;
+    padding: 5px 35px;
+    text-transform: uppercase;
+}
+
+ul#special-producTab .nav-item .nav-link.active {
+    background: #000;
+    color: #fff;
+    font-weight: 800;
+}
+ /* pagination dots */
+.splide__pagination {
+	bottom: -15px; 
+}
+button.splide__pagination__page.is-active {
+    background: #000;
+    transform: scale(0.7) !important;
+}
+button.splide__pagination__page {
+    padding: 0 !important;
+    min-height: 3px !important;
+    width: 25px;
+    border-radius: 20px;
+    background: #bcbaba;
+	transform: scale(0.7) !important;
+}
+ /* pagination dots */
+.spTabContent-space {
+    padding: 20px 0px 40px 0px;
+}
+.spTabContent-space {
+    padding: 20px 0px 40px 0px;
+}
+
+.featured-cate-products {
+    margin: 25px 0;
+    padding: 20px 0 0 0;
+}
+
+.featured-sec-title {
+    background: rgb(241, 114, 159);
+    padding: 15px 30px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+    position: relative;
+    border-radius: 0 6px 0 0;
+    -moz-border-radius: 0 6px 0 0;
+    -webkit-border-radius: 0 6px 0 0;
+    min-width: fit-content;
+}
+
+.featured-cate-products {
+    position: relative;
+}
+
+.featured-sec-title::before {
+    border-bottom: 10px solid #ff1c88 !important;
+    content: "";
+    width: 0;
+    height: 0;
+    border-bottom: 10px solid #c4c4c4;
+    border-left: 15px solid transparent;
+    position: absolute;
+    top: -10px;
+    left: 0;
+}
+
+.fpTabContent {
+    border: 1px solid #ddd;
+    border-top: 2px solid rgb(241, 114, 159);
+    padding: 10px;
+    background: #FEF1F5;
+}
+.fpTabContent-space {
+    padding-bottom: 30px;
+}
+
+.featured-producTab {
+    border: none;
+    padding-left: 10px;
+    padding-bottom: 2px;
+}
+.featured-producTab .nav-item {
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: none;
+    background: #fff;
+    margin: 0 15px;
+}
+
+
+.featured-producTab a.nav-link {
+    border: 1px solid #c8c8c8;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 8px;
+    border-radius:5px !important;
+    text-transform: uppercase;
+}
+
+.featured-producTab .nav-link.active {
+    background: #ff1c88 !important;
+    color: #fff !important;
+    border: none;
+    border-radius: 5px;
+}
+
+/* influencer  */
+.influencers-review img {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.influencers-name {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.influencers-review-content {
+    font-size: 16px;
+    margin: 20px 0;
+    font-weight: 500;
+}
+
+.influencersSliders {
+    padding: 20px 0;
+}
+
+.see-more-btn {
+	font-size: 12px;
+    padding: 5px 10px;
+    background: #f1729f;
+	border: 2px solid #f1729f;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 5px;
+	transition:0.5s;
+}
+
+.see-more-btn:hover {
+	border: 2px solid #f1729f;
+    background: #fff;
+    color: #f1729f;
+}
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+    .home-hero-section {
+      margin-top: 0;
+      padding: 0 10px;
+    }
+	.container-fluid.md-d-none {
+		padding: 0 !important;
+	}
+    .carocate-name {
+        font-size: 10px;
+        font-weight: 500;
+        text-align: center;
+        text-transform: capitalize;
+    }
+    ul#special-producTab .nav-item .nav-link {
+        padding: 5px 25px;
+    }
+    .wd-content-layout.content-layout-wrapper.container {
+      padding: 0 !important;
+    }
+}

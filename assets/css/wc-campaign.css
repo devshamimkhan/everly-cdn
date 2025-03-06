@@ -1,0 +1,141 @@
+a.cpn-breadcrum {
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: "Nanum Gothic", sans-serif;
+}
+h2.campaign-title-name {
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 600;
+    font-family: "Nanum Gothic", sans-serif;
+    color: #414042;
+    margin: 0;
+}
+span.cmp-found {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    font-family: "Nanum Gothic", sans-serif;
+    text-transform: capitalize;
+    margin-left: 10px;
+}
+.anniversary-sale {
+    background: #fef1f5;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.anniversary-sale p {
+    margin: 0;
+}
+.countdown-element {
+    text-align: center;
+}
+.countdown-element span {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    font-family: "Nanum Gothic", sans-serif;
+}
+.countdown-element p {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 21px;
+    font-family: "Nanum Gothic", sans-serif;
+}
+.countdown-timer {
+    font-size: 16px;
+    font-weight: 800;
+    text-transform: lowercase;
+}
+.countdown-timer {
+    display: flex;
+    justify-content: end;
+    gap: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+h4.cpn-title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    margin: 0 10px;
+    text-transform: uppercase;
+    font-family: "Nanum Gothic", sans-serif;
+}
+.sale-title p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 36px;
+    font-family: "Nanum Gothic", sans-serif;
+    text-transform: uppercase;
+}
+
+.col-lg-3.col-md-3 {
+    margin: 10px 0px;
+}
+
+.product-wrapper {
+    align-self: self-end;
+    border: .5px solid #ddd;
+    border-radius: 7px;
+    padding: 0 5px;
+}
+
+
+@media (min-width: 320px) and (max-width: 576px) { 
+
+    .col-lg-3.col-md-3.col-sm-6 {
+        margin: 5px 0px;
+        padding: 0 5px;
+    }
+
+    .main-page-wrapper {
+        padding-top: 15px !important;
+    }
+    span.cmp-found {
+        font-size: 14px;
+    }
+    h4.cpn-title {
+/*         font-size: 16px;
+        line-height: 24px;
+        margin: 0; */
+		display:none;
+    }
+
+    .sale-title.d-flex.justify-content-around.align-items-end.mx-4 {
+        display: block !important;
+        margin: 0 !important;
+    }
+
+    .d-flex.align-items-center.my-4 {
+        margin: 0 !important;
+    }
+
+    .countdown-element span {
+        font-size: 20px;
+    }
+    
+    .countdown-element p {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .anniversary-sale.d-flex.justify-content-center.align-items-center.my-5 {
+        justify-content: space-between !important;
+        margin-top: 0 !important;
+        margin-bottom: 10px !important;
+    }
+    .sale-title p {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+    }
+    h2.campaign-title-name {
+        font-size: 24px;
+        margin: 0 !important;
+    }
+}

@@ -1,0 +1,271 @@
+/* Product Grid  */
+.out-of-stock-label {
+    background: #fff;
+    background: hsl(331.45deg 100% 55.49% / 17%);
+    color: #000000;
+    font-weight: 800;
+    font-size:14px;
+    left: 0;
+    opacity: .9;
+    padding: 20px 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    text-transform: uppercase;
+    top: 40%;
+}
+h3.wcp-title {
+    text-transform: inherit !important;
+    text-align: left;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    font-family: "Lato" !important;
+    font-weight: 600;
+    font-size: 14px;
+}
+.product-labels.labels-rounded .product-label {
+    font-size: 13px !important;
+}
+h4.sec-title {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 600;
+    font-family: "Nanum Gothic", sans-serif !important;
+}
+h4.brand-name.text-start {
+    margin: 0;
+    margin-left: 5px;
+    color: rgb(115, 115, 115);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 10px;
+    font-family: "Nanum Gothic", sans-serif !important;
+}
+.wcp-campaign-name {
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    background: #ff1c88;
+    color: #fff;
+    font-size: 10px;
+    font-family: "Nanum Gothic", sans-serif !important;
+    font-weight: 600;
+    padding: 3px 5px;
+    text-transform: uppercase;
+    border-radius: 2px;
+}
+.wcp-freeshipping {
+    position: absolute;
+    background: #000;
+    color: #fff;
+    font-size: 10px;
+    left: 10px;
+    bottom: 0;
+    font-family: "Nanum Gothic", sans-serif !important;
+    font-weight: 600;
+    padding: 3px 5px;
+    text-transform: uppercase;
+    border-radius: 2px;
+}
+strong.wcp-salePrice {
+    font-size: 16px !important;
+    font-weight: 600;
+    color: rgb(241, 114, 159);
+    padding-right: 6px;
+    font-family: "Nanum Gothic", sans-serif !important;
+}
+.wcp-price del{
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(115, 115, 115);
+}
+.wcp-variations {
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 10px;
+    color: #000;
+    font-family: "Nanum Gothic", sans-serif !important;
+    line-height: 24px;
+}
+.swiper-slide {
+    height: auto !important;
+    border-radius: 8px;
+}
+.product-add-to-cart {
+    padding: 10px;
+}
+a.custom-add-to-cart.btn {
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.product-add-to-cart a {
+    background: rgb(241, 114, 159);
+    width: 100%;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: "lato";
+    border-radius: 5px;
+    padding: 5px;
+    display: block;
+    text-align: center;
+    border: 2px solid rgb(241, 114, 159);
+}
+
+.product-add-to-cart a:hover{
+    border: 2px solid rgb(241, 114, 159);
+    background: #fff;
+    color: rgb(241, 114, 159);
+}
+
+.wcp-title .short-title {
+    display: none;
+}
+
+.wcp-title span {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    min-height:40px;
+}
+.product-labels.labels-rounded .product-label {
+    display: none !important;
+}
+
+.wcp-reating {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: #fff;
+    padding: 1px 10px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Lato";
+    background: #ff1c88;
+    border-radius: 25px;
+}
+.wcp-reating i{
+    color: #ffc81d;
+}
+.product-wrapper {
+    align-self: self-end;
+}
+.discount-percent {
+    color: rgb(5, 150, 105);
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+p.line-through {
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+    color: rgb(115, 115, 115);
+}
+p.line-through bdi {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(115, 115, 115);
+    text-decoration: line-through;
+}
+@media (min-width: 320px) and (max-width: 575.98px) {
+    h4.sec-title {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    p.line-through-2 {
+        padding: 0;
+        margin: 0;
+        display: inline-flex;
+        text-decoration: line-through;
+        color: rgb(115, 115, 115);
+    }
+    p.line-through-2 bdi {
+        font-size: 16px;
+        font-weight: 600;
+        color: rgb(115, 115, 115);
+    }
+    bdi {
+        word-spacing: -2px !important;
+        letter-spacing: -0.5px !important;
+    }
+    .fpTabContent{
+        padding: 0 !important;
+    }
+    strong.wcp-salePrice {
+        font-size: 14px !important;
+    }
+    .discount-percent {
+        margin-left: 0 !important;
+        font-size: 12px !important;
+    }
+    p.line-through bdi {
+        font-size: 12px !important;
+        text-decoration: line-through;
+        color: rgb(115, 115, 115);
+    }
+
+    .itemsContainer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 8px; 
+    }
+    .item {
+        background-color: #f9f9f9; 
+        border: 1px solid #ddd;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .item-set {
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    .custom-related-products-grid{
+        display: grid; 
+        grid-template-columns: repeat(2, 0.5fr); 
+        gap: 10px;
+    }
+    .custom-taxonomies {
+        padding: 15px;
+        border-radius: 8px;
+        background: #FEF1F5;
+        margin-bottom: 20px;
+    }
+    .taxonomy-item strong {
+        font-size: 15px;
+        color: #000;
+    }
+    .variation-image-slider-container .swiper-slide {
+        border: 2px solid #ddd;
+    }
+    .variation-image-slider-container .swiper-slide.selected{
+        border: 2px solid #000;
+    }
+    .woocommerce-product-gallery {
+		border: 0.5px solid #dddddd80;
+		border-radius: 5px;
+    }
+    table.variations {
+        display: none;
+    }
+
+}
+
+@media (min-width: 576px){
+
+.custom-related-products-grid{
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px;
+}
+
+}
